@@ -7,7 +7,8 @@ window.minsize(width=500, height=300)  # 设置窗口大小
 window.config(padx=100, pady=200)
 # Label
 my_label = Label(text="I Am a Label", font=("Arial", 24, "bold"))  # 创建一个label
-my_label.grid(column=0, row=0)  # 把创建的label放进window里, pack是一个排版的工具
+my_label.grid(column=0, row=0)
+#my_label.pack() # 把创建的label放进window里, pack是一个排版的工具
 # pack里可以调的参数写在了**kw里面，有无限的参数可以写？
 
 # 以下两种方式和上面直接定义的时候设置text都可以改变text的值，都可以用
